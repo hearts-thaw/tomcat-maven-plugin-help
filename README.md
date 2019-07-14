@@ -1,12 +1,12 @@
 # Tomcat Maven plugin setup for IntelliJ IDEA Community Edition
 
-### 0. Prerequisites 
+## 0. Prerequisites 
 + [setup  JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 + [setup  Maven](https://maven.apache.org/download.cgi) (preinstalled in IntelliJ IDEA)
 + [setup  Tomcat](https://tomcat.apache.org/download-90.cgi)  
 
 
-### 1. Configs
+## 1. Configs
 + **set** _JAVA_HOME_, _CATALINA_HOME_ (or _JAVA_BASE_, _CATALINA_BASE_; you might need configuring _JAVA_OPTS_, _CATALINA_OPTS_ later) and MAVEN_HOME
 + **in**: _%CATALINA_HOME%\conf\context.xml_  
   **add**:
@@ -96,4 +96,4 @@ to shut down the server
 + If you prefer to "run" (tomcat7:run) server from IDEA, then you don't need to start it up manually from startup.bat!
 
 
-## (Dont forget to rename placeholders, for example: YOUR_USERNAME="tomcat"; YOUR_PASSWORD="tomcat"; YOUR_SERVER_NAME="tomcatserver")
+### (Dont forget to rename placeholders, for example: YOUR_USERNAME="tomcat"; YOUR_PASSWORD="tomcat"; YOUR_SERVER_NAME="tomcatserver")
