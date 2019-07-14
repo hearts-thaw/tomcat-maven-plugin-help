@@ -81,7 +81,8 @@
         </plugin>
     </plugins>
 </build>
-```
+```  
++ **Configure your servlets using web.xml**
 
 ## 3. How to run/deploy/redeploy/undeploy
 
