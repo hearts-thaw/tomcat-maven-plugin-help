@@ -1,4 +1,4 @@
-# Tomcat Maven plugin setup and for IntelliJ IDEA Community Edition
+# Tomcat Maven plugin setup for IntelliJ IDEA Community Edition
 
 ### 0. Prerequisites 
 + [setup  JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
