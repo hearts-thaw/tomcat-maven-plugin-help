@@ -96,4 +96,9 @@ to shut down the server
 + If you prefer to "run" (tomcat7:run) server from IDEA, then you don't need to start it up manually from startup.bat!
 
 
+## 4. How to deploy your web application in ROOT (/)
+
++ In your pom.xml tomcat plugin <configuration> set <path>/</path>
++ In _%CATALINA_HOME%\bin\conf\Catalina\localhost_ create **ROOT.XML** with this content: `<Context docBase="../deploy/YOUR_APPLICATION_NAME.war"/>`  
+
 ### (Dont forget to rename placeholders, for example: YOUR_USERNAME="tomcat"; YOUR_PASSWORD="tomcat"; YOUR_SERVER_NAME="tomcatserver")
